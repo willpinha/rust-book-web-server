@@ -19,9 +19,9 @@ fn handle_connection(mut stream: TcpStream) {
     let get: &[u8] = b"GET / HTTP/1.1\r\n";
 
     let (status_line, filename) = if buffer.starts_with(get) {
-        ("HTTP/1.1 200 OK", "index.html")
+        ("HTTP/1.1 200 OK", "www/index.html")
     } else {
-        ("HTTP/1.1 404 NOT FOUND", "404.html") 
+        ("HTTP/1.1 404 NOT FOUND", "www/404.html") 
     };
 
     let contents = fs::read_to_string(filename).unwrap();
