@@ -1,5 +1,5 @@
 <h1>
-  Simple Web Server
+  Simple Web Server<br>
   <img alt="Build" src="https://img.shields.io/github/workflow/status/willpinha/simple-web-server/Rust?style=flat-square&logo=github">
   <img alt="Release" src="https://img.shields.io/github/v/release/willpinha/simple-web-server?include_prereleases&style=flat-square">
   <img alt="License" src="https://img.shields.io/github/license/willpinha/simple-web-server?style=flat-square">
